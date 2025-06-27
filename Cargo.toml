@@ -1,0 +1,8 @@
+[package]
+name = "after8"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+log = "0.4"
+rand = "0.8"
