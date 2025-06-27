@@ -9,7 +9,7 @@ Emulator for Chip-8 roms implemented in Rust. The UI is rendered as console outp
 - [Op codes](https://chip8.gulrak.net/)
 - [Test suite](https://github.com/Timendus/chip8-test-suite)
 
-## Buildingdown
+## Building
 
 A working rust setup is needed to build the emulator. See [rustup](https://rustup.rs/) to get started.
 
