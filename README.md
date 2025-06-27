@@ -9,9 +9,9 @@ Emulator for Chip-8 roms implemented in Rust. The UI is rendered as console outp
 - [Op codes](https://chip8.gulrak.net/)
 - [Test suite](https://github.com/Timendus/chip8-test-suite)
 
-      ## Buildingdown
+## Buildingdown
 
-  A working rust setup is needed to build the emulator. See [rustup](https://rustup.rs/) to get started.
+A working rust setup is needed to build the emulator. See [rustup](https://rustup.rs/) to get started.
 
 ```
 cargo build --release
@@ -24,7 +24,7 @@ This creates the after8 binary in 'target/release/'.
 Run the supplied script in the 'roms/' directory to download test roms.
 
 ```
-$ ./roms/download_roms.sh
+./roms/download_roms.sh
 ```
 
 ## Running
@@ -32,13 +32,13 @@ $ ./roms/download_roms.sh
 To run a rom file, pass it as the last argument.
 
 ```
-$ ./target/release/after8 roms/3-corax+.ch8
+./target/release/after8 roms/3-corax+.ch8
 ```
 
 To get debug output (-v) and disable the UI (-u), run
 
 ```
-$ ./target/release/after8 -v -u roms/3-corax+.ch8
+./target/release/after8 -v -u roms/3-corax+.ch8
 ```
 
 ## Not yet implemented
